@@ -4,8 +4,8 @@
   "description": "Full stacked friend finder site ",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -23,3 +23,4 @@
     "path": "^0.12.7"
   }
 }
+

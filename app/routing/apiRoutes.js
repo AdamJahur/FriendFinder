@@ -12,7 +12,7 @@ module.exports = function(app){
 			var compatibilityScore = 0;
 			var scoreDiff = 0;
 
-			for (var i = 0; i < user.length; i++) {
+			for (var i = 0; i < userScores.length; i++) {
 				scoreDiff = Math.abs(userScores[i]-friendsData[friendNum].scores[i]);
 				compatibilityScore = compatibilityScore + scoreDiff;	
 			}
