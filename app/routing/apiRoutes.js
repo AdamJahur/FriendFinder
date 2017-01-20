@@ -58,8 +58,8 @@ module.exports = function(app){
 		res.json({
 			'name': bestFriendName,
 			'alert': alertText,
-			'photo': bestFriendPhotoLink,
+			'photo': bestFriendPhotoLink
 		});
 	});
-}
+};
 
